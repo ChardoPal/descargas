@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descargas de Office 64 bits</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./stylesheets/body.generl.css">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./stylesheets/footer.do.css">
+</head>
+
+<body>
+    <header>
+        <div class="title1032019">
+            <h1 class="title" style="margin-bottom: 0px;"><img id="icon-header"
+                    src="./img/officeresource-removebg-preview.png" alt="Office">Descargar Office</h1>
+        </div>
+    </header>
+    <br>
+    <br>
+    <div class="text-decorationInforma">
+        <h2>Microsoft Office 2021</h2>
+        <p class="text">Microsoft Office 2021 solo es compatible con Windows 10 y sistemas superiores.</p>
+    </div>
+    <div style="text-align: center;">
+        <a href="https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/es-es/ProPlus2021Retail.img" id="Downloads123-2019"
+            download="ProPlus2021.iso" class="download-button"><i class="fa-solid fa-download"
+                style="margin-right: 5px;"></i> Descargar Office 2021</a>
+    </div>
+    <div class="activation-2019">
+        <h2 class="act-2019pro">¿COMO ACTIVO OFFICE 2021 PRO PLUS?</h1>
+            <p class="text">Si quieres activarlo puedes activarlo comprando las licencias originales en la tienda
+                oficial de Microsoft, si no puedes optener Licencias por Volumen que
+                son licencias que solo duran por lo menos por 180 días.</p>
+    </div>
+    <div class="cmd-activation">
+        <h1 class="h1">¿Se puede Activar por CMD?</h1>
+        <p class="text">Claro que si, aqui estan los pasos para poder activarlo a traves del cmd(Administador)</p>
+        <p class="text">
+        <h2 class="h1">Activación CMD (KMS)</h2>
+        <p class="text">Sigue estos pasos para activar Office 2021 legalmente con un código de licencia por volumen KMS
+            desde CMD:
+        </p>
+        <div class="pasos-2019-23">
+            <p class="text">1. Abre el símbolo del sistema (CMD) como administrador.</p>
+            <p class="text">2. Copia y ejecuta el siguiente comando para ir a la ubicación de Office en tu PC:</p>
+            <div class="console">
+                <pre class="cod-2019">
+                <code id="code1">
+                <p class="cmd">cd /d %ProgramFiles(x86)%\Microsoft Office\Office16</p>
+                <p class="cmd">cd /d %ProgramFiles%\Microsoft Office\Office16</p>
+            </code>
+            </pre>
+            </div>
+            <p class="text">Si has instalado Office 2021 de 64 bits (x64), deberías ejecutar el primer comando. De lo
+                contrario, si has instalado la versión de 32 bits (x86), ejecuta el segundo comando.</p>
+            <p class="text">En caso de que no estés seguro de la arquitectura que tienes, <strong>ejecuta ambos
+                    códigos.</strong> mostrará error pero el otro se ejecutará correctamente.</p>
+            <p class="text">3. Luego, ejecuta el siguiente comando para convertir tu versión Retail a VL (Licencia por
+                Volumen).</p>
+            <div class="console">
+                <pre class="cod-2019">
+                    <code id="code1">
+                    <p class="cmd">for /f %x in ('dir /b ..\root\Licenses16\ProPlus2021VL_KMS*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x"</p>
+                </code>
+                </pre>
+            </div>
+            <p class="text">4. Seguidamente, copia el siguiente script en el CMD (símbolo del sistema) y pulsa enter
+                para ejecutarlo. (Es necesario estar conectado a Internet para que funcione).</p>
+            <div class="console">
+                <pre class="cod-2019" id="cmd-fin">
+                    <code id="ultimate134">
+                    
+                    <p class="cmd">cscript ospp.vbs /setprt:1688</p>
+                    
+                    <p class="cmd">cscript ospp.vbs /unpkey:6MWKP >nul</p>
+                    
+                    <p class="cmd">cscript ospp.vbs /inpkey:FXYTK-NJJ8C-GB6DW-3DYQT-6F7TH</p>
+                    
+                    <p class="cmd">cscript ospp.vbs /sethst:e8.us.to</p>
+                    
+                    <p class="cmd">cscript ospp.vbs /act</p>
+                </code>
+                </pre>
+            </div>
+            <p class="text-centre">¡Listo!</p>
+            <p class="text-centre" style="margin-bottom: 5px;">Si todo sale bien, habrás activado Office 2021 de por
+                vida, o por lo menos por 180 días.</p>
+            <div class="import-text">
+                <p class="text-importanti"><strong>Importante:</strong> reiniciar la PC después de ejecutar todos los
+                    comandos para que se complete la activación.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
