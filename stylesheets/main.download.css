@@ -1,0 +1,225 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+i{
+    margin-right: 5px;
+}
+
+.container-isos-plataforuw1313 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.container-isos-plataforuw1313 div {
+    background-color: #fff;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* margin-bottom: 10px; */
+    transition: background-color 0.3s ease;
+    transition: color 0.3 ease;
+}
+
+.container-isos-plataforuw1313 div a {
+    display: block; /* Hace que el enlace sea de bloque y ocupe todo el ancho del contenedor */
+    text-decoration: none;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    width: 256px;
+    font-size: 18px;
+}
+
+.container-isos-plataforuw1313 div a:hover {
+    background-color: #aa7e04;
+    transition: 0.6s;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.container-isos-plataforuw1314 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.container-isos-plataforuw1314 div {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    transition: background-color 0.3s ease;
+    transition: color 0.3 ease;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-isos-plataforuw1314 div a {
+    display: flex;
+    text-decoration: none;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 260px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-isos-plataforuw1314 div a:hover {
+    background-color: #aa7e04;
+    transition: 0.6s;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.container-isos-plataforuw1315 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.container-isos-plataforuw1315 div {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    width: 300px;
+    transition: background-color 0.3s ease;
+    transition: color 0.3 ease;
+}
+
+.container-isos-plataforuw1315 div a {
+    display: block; /* Hace que el enlace sea de bloque y ocupe todo el ancho del contenedor */
+    text-decoration: none;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.container-isos-plataforuw1315 div a:hover {
+    background-color: #aa7e04;
+    transition: 0.6s;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #444;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+label {
+    color: #fff;
+    cursor: pointer;
+}
+
+li {
+    padding: 10px;
+    transition: padding 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+li:hover {
+    background-color: #a88100;
+    color: #444;
+    padding: 10px; /* Ajusta según sea necesario */
+}
+
+.list-info {
+    display: flex;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    background-color: #333;
+    border-radius: 5px;
+    transition: opacity 0.5s ease-out, visibility 0.5s ease-out;
+    flex-direction: column;
+}
+
+#link1:hover .list-info {
+    opacity: 1;
+    visibility: visible;
+}
+
+.parenl-links23231 {
+    flex: 1; /* Hace que este contenedor ocupe el espacio disponible */
+    display: flex;
+    justify-content: flex-end; /* Alinea los elementos al final del contenedor */
+    align-items: center;
+}
+
+.appleID {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.appleID div {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    width: 300px;
+    transition: background-color 0.3s ease;
+    transition: color 0.3 ease;
+}
+
+.appleID div a {
+    display: block; /* Hace que el enlace sea de bloque y ocupe todo el ancho del contenedor */
+    text-decoration: none;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.appleID div a:hover {
+    background-color: #aa7e04;
+    transition: 0.6s;
+    color: #fff;
+    border-radius: 5px;
+}

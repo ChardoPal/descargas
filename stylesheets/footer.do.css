@@ -1,0 +1,65 @@
+footer {
+    text-align: center;
+    background-color: #333;
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+    margin-top: 44px;
+}
+
+#footer-link{
+    text-decoration: none;
+    color: #fff;
+}
+
+#vers{
+    color: #666;
+    display: block;
+    font-size: 16px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.footer-content {
+    padding: 20px;
+    color: #fff; /* Cambia el color del texto del footer */
+}
+
+
+/* Cambia el color de fondo del footer */
+.social-links a i {
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.fab.fa-facebook{
+    background-color: #1877f2;
+}
+
+.fab.fa-whatsapp{
+    background-color: #25D366;
+}
+
+.fab.fa-github{
+    background-color: #000000;
+} 
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.3s; /* Agregamos la transición para la animación */
+}
+
+.social-links a:hover {
+    transform: scale(1.5); /* Aumentamos el tamaño al hacer hover */
+}
+
+
+#ter{
+    font-size: 2em;
+}
